@@ -1,0 +1,32 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Week of 13 HW - Node and Express Servers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "nodemon server.js --ignore app/data/friends.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhart2017/Friend-Finder.git"
+  },
+  "keywords": [
+    "matching",
+    "site"
+  ],
+  "author": "Ben Hart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhart2017/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/bhart2017/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonfile": "^2.3.1"
+  },
+  "engines": {
+    "node": "6.3.0"
+  }
+}
