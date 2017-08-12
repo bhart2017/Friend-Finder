@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <style>
+    html, body {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+    }
+    h1,h2 {
+      color: black;
+    }
+    h1 {
+      font-size: 10vh;
+    }
+    h2 {
+      font-size: 2.5vh;
+    }
+    a, a:hover {
+      color: black;
+    }
+    #center {
+      height: 100%;
+      padding-top: 25%;
+      text-align: center;
+    }
+    .container, .row {
+      height: 100%;
+    }
+    .footer {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+    #chevron-top {
+      position: absolute;
+      height: 30%;
+      width: 100%;
+    }
+    #chevron-top:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      height: 100%;
+      width: 50%;
+      background: #c0de5b;
+      -webkit-transform: skew(0deg, -45deg);
+      -moz-transform: skew(0deg, -45deg);
+      -ms-transform: skew(0deg, -45deg);
+      -o-transform: skew(0deg, -45deg);
+      transform: skew(0deg, -45deg);
+    }
+    #chevron-top:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      background: #c0de5b;
+      -webkit-transform: skew(0deg, 45deg);
+      -moz-transform: skew(0deg, 45deg);
+      -ms-transform: skew(0deg, 45deg);
+      -o-transform: skew(0deg, 45deg);
+      transform: skew(0deg, 45deg);
+    }​
+    #chevron-bottom {
+      position: absolute;
+      height: 30%;
+      width: 100%;
+    }
+    #chevron-bottom:before {
+      content: '';
+      position: absolute;
+      bottom: 25%;
+      left: 0;
+      height: 30%;
+      width: 50%;
+      background: #c0de5b;
+      -webkit-transform: skew(0deg, 45deg);
+      -moz-transform: skew(0deg, 45deg);
+      -ms-transform: skew(0deg, 45deg);
+      -o-transform: skew(0deg, 45deg);
+      transform: skew(0deg, 45deg);
+    }
+    #chevron-bottom:after {
+      content: '';
+      position: absolute;
+      bottom: 25%;
+      right: 0;
+      height: 30%;
+      width: 50%;
+      background: #c0de5b;
+      -webkit-transform: skew(0deg, -45deg);
+      -moz-transform: skew(0deg, -45deg);
+      -ms-transform: skew(0deg, -45deg);
+      -o-transform: skew(0deg, -45deg);
+      transform: skew(0deg, -45deg);
+    }​
+  </style>
+</head>
+<body>
+  <div id="chevron-top"></div>
+  <div id="chevron-bottom"></div>
+  <div class="container">
+    
+    <div class="row">
+      <div id= "center" class="col-md-10 col-md-offset-1">
+        <h1 class=""><i class="fa fa-users" aria-hidden="true"></i> Friend Finder</h1>
+        <br>
+        <h2 class="">Answer a few basic questions. </h2>
+        <h2 class="">Then find the friend with the greatest compatibility!</h2>
+        <br>
+        <div class="">
+          <a href="/survey"><button type="button" class="btn btn-lg btn-info"><h4><i class="fa fa-list-ol" aria-hidden="true"></i> Go to Survey</h4></button></a> 
+        </div>
+     </div>
+    </div>
+  </div>
+</body>
+</html>
